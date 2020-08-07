@@ -45,7 +45,7 @@ class App extends React.Component {
             <Navbar.Brand style={{color: 'white'}}>Matthew Brogan</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" style={{color: 'white'}}/>
-            <Navbar.Collapse id="navbar-toggle">
+            <Navbar.Collapse id="navbar-toggle" style={{color: 'white'}}>
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/" style={{color: 'white'}}>Home</Link>
                 <Link className="nav-link" to="/about" style={{color: 'white'}}>About</Link>
