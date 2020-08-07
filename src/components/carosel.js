@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
+import thedock from '../photos/thedock.jpg'
 import inlinked from '../photos/inlinked.jpg';
 import code from '../photos/code.jpg';
 import github from '../photos/github.png';
@@ -71,7 +72,7 @@ class Carousel extends React.Component{
         return(
            <Container  fluid={true}>
                <Row className="b-display-cards justify-content-around" style={{  
-  backgroundImage: "url(" + "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" + ")",
+  backgroundImage: "url(" + {thedock} + ")",
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat'
