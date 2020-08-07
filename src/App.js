@@ -42,7 +42,7 @@ class App extends React.Component {
         <Container className="headbar" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand className="brand">Matthew Brogan</Navbar.Brand>
+            <Navbar.Brand className="navbrand">Matthew Brogan</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
