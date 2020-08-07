@@ -66,10 +66,10 @@ class ContactPage extends React.Component {
     
     render(){
         return(
-       <div // style={{ backgroundImage: "url(" + "https://images.pexels.com/photos/2335126/pexels-photo-2335126.jpeg?cs=srgb&dl=pexels-tobias-bj%C3%B8rkli-2335126.jpg&fm=jpg" + ")",
-       //backgroundPosition: 'center',
-      // backgroundSize: 'cover',
-       //backgroundRepeat: 'no-repeat'}}
+       <div style={{ backgroundImage: "url(" + "https://images.pexels.com/photos/2335126/pexels-photo-2335126.jpeg?cs=srgb&dl=pexels-tobias-bj%C3%B8rkli-2335126.jpg&fm=jpg" + ")",
+       backgroundPosition: 'center',
+       backgroundSize: 'cover',
+       backgroundRepeat: 'no-repeat'}}
        >
            <Hero title={this.props.title} />
            <Content >
