@@ -2,7 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-
+import inlinked from '../photos/inlinked.jpg';
+import code from '../photos/code.jpg';
 import github from '../photos/github.png';
 import pcpic from '../photos/pcpic.jpg';
 import linkedin from '../photos/linkedin.png';
@@ -18,7 +19,7 @@ class Carousel extends React.Component{
                     id: 0,
                     title: "GitHub",
                     subtitle:"My projects and Repostories",
-                    imgsrc: github,
+                    imgsrc: code,
                     link: "https://github.com/Matthew-Brogan/",
                     selected: false
                     },
@@ -35,7 +36,7 @@ class Carousel extends React.Component{
                         id: 2,
                         title:"My LinkedIn",
                         subtitle: "Add me! Lets connect!",
-                        imgsrc: linkedin,
+                        imgsrc: inlinked,
                         link: "https://www.linkedin.com/in/matt-brogan-aba6271a8/",
                         selected: false
                     }
@@ -69,7 +70,12 @@ class Carousel extends React.Component{
     render(){
         return(
            <Container  fluid={true}>
-               <Row className="b-display-cards justify-content-around">
+               <Row className="b-display-cards justify-content-around" style={{  
+  backgroundImage: "url(" + "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" + ")",
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat'
+}}>
                    {this.makeItems(this.state.items)}
                </Row>
            </Container>
