@@ -70,7 +70,7 @@ class ContactPage extends React.Component {
        backgroundPosition: 'center',
        backgroundSize: 'cover',
        backgroundRepeat: 'no-repeat'}}>
-           <Hero title={this.props.title} />
+           <Hero className="color: red" title={this.props.title} />
            <Content >
                <Form onSubmit={this.handleSubmit}>
                    <Form.Group>
