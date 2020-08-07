@@ -72,7 +72,7 @@ class Carousel extends React.Component{
         return(
            <Container  fluid={true}>
                <Row className="b-display-cards justify-content-around" style={{  
-  backgroundImage: "url(" + "../photos/thedock.jpg" + ")",
+  backgroundImage: "url(" + "https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?cs=srgb&dl=pexels-pixabay-50711.jpg&fm=jpg" + ")",
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat'
