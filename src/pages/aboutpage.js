@@ -18,7 +18,7 @@ function AboutPage(props){
          
             
             
-         <p>Hello World! I'm Matthew! I am a full stack developer with a lot of focus and energy! I have lived in Cincinnati Ohio for my entire life. I have always enjoyed taking an artistic approach to working, and as such found myself with a career in printing. However, as I've grown more as an adult I've discovered a strong passion for creativity through web development. As a former career printer you can expect these qualities while working with me:</p>
+         <p>Hello World! I'm Matthew! I am a full stack developer with a lot of focus and energy! I have lived in Cincinnati,Ohio for my entire life. I have always enjoyed taking an artistic approach to working, and as such found myself with a career in printing. However, as I've grown more as an adult I've discovered a strong passion for creativity through web development. As a former career printer you can expect these qualities while working with me:</p>
            
         
            
@@ -39,7 +39,7 @@ function AboutPage(props){
      
      <h3>About Me</h3>
      
-         <p>  I enjoy playing my guitar, and sports, and let's not forget building fast functioning code that ensures a smooth and user-driven experience.  I have discovered coding to be a huge passion of mine, I enjoy coding alone or pair coding and even working in teams! I absolutely relish the experience of working with other inspired driven web developers!</p>
+         <p>  I enjoy playing my guitar, and sports, and let's not forget building fast functioning code that ensures a smooth and user-driven experience.  I have discovered coding to be a huge passion of mine. I enjoy coding alone or pair coding and even working in teams! I absolutely relish the experience of working with other inspired driven web developers!</p>
        
           
      <h4>Languages and skills:</h4>
