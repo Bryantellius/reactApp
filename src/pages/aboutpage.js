@@ -13,7 +13,7 @@ function AboutPage(props){
           }}>
             <Hero title={props.title}/>
             <Content >
-            <div >
+            <div className="about-pages" >
             <h3> Allow me to introduce myself!</h3>
          
             
