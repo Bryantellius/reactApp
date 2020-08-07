@@ -68,7 +68,8 @@ class ContactPage extends React.Component {
         return(
        <div>
            <Hero title={this.props.title} />
-           <Content>
+           <Content style={{backgroundimage: "url("+"https://images.pexels.com/photos/3913025/pexels-photo-3913025.jpeg?cs=srgb&dl=pexels-thisisengineering-3913025.jpg&fm=jpg"+")",
+        }}>
                <Form onSubmit={this.handleSubmit}>
                    <Form.Group>
                        <Form.Label htmlFor="fullName">Full Name</Form.Label>

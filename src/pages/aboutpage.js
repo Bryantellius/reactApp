@@ -7,7 +7,12 @@ function AboutPage(props){
     return(
         <div>
             <Hero title={props.title}/>
-            <Content>
+            <Content style={{  
+  backgroundImage: "url(" + "https://images.pexels.com/photos/3913025/pexels-photo-3913025.jpeg?cs=srgb&dl=pexels-thisisengineering-3913025.jpg&fm=jpg" + ")",
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat'
+}}>
             <div >
             <h3> Allow me to introduce myself!</h3>
          
