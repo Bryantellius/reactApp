@@ -29,6 +29,8 @@ code {
 .b-card-info {
   margin-top: 10px;
   min-height: 100px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255)
 }
 .b-card-title{
   font-size: 24px;
