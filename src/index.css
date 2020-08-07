@@ -53,4 +53,8 @@ code {
   color: white;
   font-weight: bolder;
 }
-
+.headbar{
+  font-weight: bolder;
+  color: grey;
+  background-image: url("https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?cs=srgb&dl=pexels-pixabay-2150.jpg&fm=jpg");
+}
