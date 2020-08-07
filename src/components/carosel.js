@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 
 import github from '../photos/github.png';
-import msword from '../photos/msword.png';
+import pcpic from '../photos/pcpic.jpg';
 import linkedin from '../photos/linkedin.png';
 import Card from './card'
 
@@ -25,10 +25,10 @@ class Carousel extends React.Component{
             
                     {
                         id: 1,
-                        title: "My Resume",
-                        subtitle: "Functional resume in word.docx",
-                        imgsrc: msword,
-                        link: "docs/MatthewBrogan.docx",
+                        title: "My resume!",
+                        subtitle: "Lets build something great together",
+                        imgsrc: pcpic,
+                        link: "../photos/Skills-resume.pdf",
                         selected: false
                     },
                     {
